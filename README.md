@@ -10,6 +10,19 @@ npm install @rainbow_deer/mini-di
 ```shell
 yarn add reflect-metadata
 ```
+## babel
+```shell
+yarn add babel-plugin-transform-typescript-metadata - D
+```
+```json
+{
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties"],
+    "babel-plugin-transform-typescript-metadata"
+  ]
+}
+```
 ## tsconfig
 experimentalDecorators, emitDecoratorMetadata, types and lib compilation options in your tsconfig.json file.
 ```json
