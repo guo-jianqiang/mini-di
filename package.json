@@ -1,7 +1,7 @@
 {
   "name": "@rainbow_deer/mini-di",
   "version": "1.0.1",
-  "description": "基于typescript+reflect-metadata实现的依赖注入",
+  "description": "Dependency injection based on typescript+reflect-metadata",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "files": [
@@ -23,7 +23,7 @@
     "IOC"
   ],
   "author": "guojianqiang",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/guo-jianqiang/mini-di/issues"
   },
