@@ -1,5 +1,5 @@
 # mini-di
-基于typescript+reflect-metadata实现的依赖注入
+Dependency injection based on typescript+reflect-metadata
 
 ## install
 ```shell
@@ -11,11 +11,18 @@ npm install @rainbow_deer/mini-di
 yarn add reflect-metadata
 ```
 ## tsconfig
+experimentalDecorators, emitDecoratorMetadata, types and lib compilation options in your tsconfig.json file.
 ```json
 {
-  ...,
-  "experimentalDecorators": true,
-  "emitDecoratorMetadata": true
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es6"],
+        "types": ["reflect-metadata"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
 }
 ```
 ## usage
