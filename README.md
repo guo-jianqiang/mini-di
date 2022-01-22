@@ -12,7 +12,7 @@ yarn add reflect-metadata
 ```
 ## babel
 ```shell
-yarn add babel-plugin-transform-typescript-metadata - D
+yarn add @babel/plugin-proposal-decorators @babel/plugin-proposal-class-properties babel-plugin-transform-typescript-metadata - D
 ```
 ```json
 {

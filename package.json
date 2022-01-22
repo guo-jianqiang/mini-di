@@ -1,6 +1,6 @@
 {
   "name": "@rainbow_deer/mini-di",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Dependency injection based on typescript+reflect-metadata",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
