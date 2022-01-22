@@ -1,0 +1,38 @@
+{
+  "name": "@rainbow_deer/mini-di",
+  "version": "1.0.1",
+  "description": "基于typescript+reflect-metadata实现的依赖注入",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "push": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guo-jianqiang/mini-di.git"
+  },
+  "keywords": [
+    "DI",
+    "IOC"
+  ],
+  "author": "guojianqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guo-jianqiang/mini-di/issues"
+  },
+  "homepage": "https://github.com/guo-jianqiang/mini-di#readme",
+  "peerDependencies": {
+    "reflect-metadata": ">=0.1.13"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.5.5"
+  }
+}
